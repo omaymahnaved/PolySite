@@ -1,0 +1,32 @@
+
+/* Hover effect for PolySite text */
+.polysite-text:hover {
+    text-decoration:none;
+    transform: scale(1.05); 
+    transition: all 0.3s ease-in-out; 
+    letter-spacing: 2px;
+}
+
+.navbar {
+    border: none;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+/* Remove transitions */
+.navbar, .navbar-nav .nav-link, .nav-item .nav-link, .dropdown-menu, .dropdown-item {
+    transition: none !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--bs-primary) !important;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+    color: var(--bs-primary) !important;
+    
+}
